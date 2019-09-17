@@ -1,4 +1,4 @@
-# Mengelola Akun Organisasi
+# Mengelola Akun Pribadi
 
 Setiap orang yang terdaftar di dalam [github.com](https://github.com) akan mendapatkan priviledge untuk membuat repository baik public maupun private.
 
@@ -7,4 +7,4 @@ Setiap orang yang terdaftar di dalam [github.com](https://github.com) akan menda
 
 ## Membuat Repository
 
-[<< Kembali](mengelola-repo.md)
+[<< Kembali](../README.md)

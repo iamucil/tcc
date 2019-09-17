@@ -8,4 +8,3 @@ Pada praktikum ini difokuskan pada pengenalan git. Sebelum melakukan instalasi `
 
 1. [Instalasi GIT](instalasi-git.md)
 2. [Konfigurasi GIT](konfigurasi-git.md)
-3. [Mengelola Repo](mengelola-repo.md)
