@@ -12,3 +12,4 @@
 2. [Praktikum Minggu-02: Mengelola Repo](minggu-02/README.md)
 3. [Praktikum Minggu-03: SaaS](minggu-03/README.md)
 4. [Praktikum Minggu-04: BPaaS](minggu-04/README.md)
+5. [Praktikum Minggu-05: CockroachDB](minggu-05/README.md)
