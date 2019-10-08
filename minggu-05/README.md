@@ -173,3 +173,5 @@ Halaman ini berisi informasi dari cockroach db yang berjalan pada komputer host.
 ![dashboard DB Table](img/dashboard_table.png)
 
 ![dashboard DB Table](img/dashboard_metrics.png)
+
+[<< Halaman Utama](../README.md)
