@@ -40,7 +40,7 @@ Sebuah docker container yang berjalan tidak akan bisa di akses oleh host compute
 
 Perintah di atas akan menjalankan kontainer redis versi terupdate dengan nama `redisHostPort`, dan expose port redis (port default) container melalui host port 6379. Sehingga ketika host akses port 6379 sama saja melakukan akses terhadap container redis yang dijalankan. Opsi `-name redisHostPort` disini digunakan untuk identifikasi nama container yang berjalan, untuk mempermudah mengenali kontainer.
 
-### Step 4 : Accessing Redis
+### Step 4 : Accessing Redis (Dynamic)
 
 Permasalahan ketika menjalankan docker pada port yang fixed adalah kita tidak bisa menjalankan beberapa instance secara bersamaan. Untuk menjalankan beberapa instance secara bersamaan jalankan perintah `docker run -d --name redisDynamic -p 6379 redis:latest` abaikan host port, dengan cara ini docker akan me-assign host port secara otomatis, akan mencarai port yang tersedia untuk mem-binding port 6379 milik container redis dengan port yang tersedia milik host.
 
