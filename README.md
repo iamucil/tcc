@@ -14,3 +14,4 @@
 4. [Praktikum Minggu-04: BPaaS](minggu-04/README.md)
 5. [Praktikum Minggu-05: CockroachDB](minggu-05/README.md)
 6. [Praktikum Minggu-06: Docker](minggu-06/README.md)
+6. [Praktikum Minggu-07: PaaS Provider - Google App Engine](minggu-07/README.md)
