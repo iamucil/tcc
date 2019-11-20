@@ -1,5 +1,10 @@
 # Docker Image
 
+## Task
+
+> Mengerjakan UTS untuk soal studi kasus. Ketentuan: Minimal menggunakan python+flask.\
+TODO: Membuat image docker menggunakan elixir+phoenix untuk membuat webview.
+
 ## Instalasi elixir phoenix web framework
 
 Jalankan perintah dibawah ini untuk membuat elixir phoenix project menggunakan existing docker image.
@@ -131,3 +136,5 @@ Untuk menjalankan docker image, gunakan perintah `docker run` [Referensi](https:
 Yang perlu diperhatikan dari perintah di atas adalah parameter `-p 5000:5000`  perintah ini digunakan untuk mengikat port dari container dengan port yang ada di local, format nya adalah `-p LOCAL_PORT:CONTAINER_PORT`. Baca referensi untuk lebih details. Container sudah jalan, untuk mengakses aplikasi buka browser dan akses `localhost:5000`
 
 ![load docker container](imgs/009_docker_run_01.png)
+
+[<< Halaman Utama](../README.md)
