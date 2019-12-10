@@ -1,0 +1,5 @@
+events {
+    # configuration of connection processing
+    worker_connections  4096;
+    #multi_accept        on;
+}

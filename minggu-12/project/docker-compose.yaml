@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  cms-db:
+    image: mariadb
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=mySecretPassw0rd
+      - MYSQL_DATABASE=std_services
+    volumes:
+      - drupal-db:/var/lib/mysql
+  php-fpm:
+    build:
+      context: .
+      dockerfile: ./php/Dockerfile
+    volumes:
+      - ./html:/usr/share/nginx/html
+  web:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "18080:8080"
+    depends_on:
+      - cms-db
+      - php-fpm
+    volumes:
+      - ./html:/usr/share/nginx/html
+volumes:
+  drupal-db:
+    external: true
