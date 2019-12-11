@@ -112,7 +112,7 @@ Untuk lebih detail bisa di lihat di dalam directory `project`.
 
 ## Install dependencies drupal
 
-Sebelum drupal bisa di jalankan menggunakan `docker-compose` install kebutuhan dari drupal menggunakan composer, berhubung di local tidak ada `composer` yang terinstall, manfaatkan `image docker` yang sudah ada dengan menjalankan perintah:
+Sebelum drupal bisa di jalankan menggunakan `docker-compose` install kebutuhan dari drupal menggunakan `composer`, berhubung di local tidak ada `composer` yang terinstall, manfaatkan `image docker` yang sudah ada dengan menjalankan perintah:
 
 ```bash
 docker container run --rm -i -t -w /data -v $(pwd):/data prooph/composer:7.2 composer install --no-dev
@@ -136,6 +136,6 @@ Akses melalui `localhost:18080`, browser akan me-redirect ke halaman `/core/inst
 
 ![localhost](imgs/03.access_drupal.png)
 
-Konfigurasi drupal dan mulai develop menggunakan drupal
+Konfigurasi drupal dan mulai develop menggunakan drupal, ikuti dokumentasi yang ada di [Halaman Dokumentasi ini](https://www.drupal.org/docs/user_guide/en/index.html)
 
 [<< Halaman Utama](../README.md)
