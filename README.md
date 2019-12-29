@@ -20,3 +20,4 @@
 10. [Praktikum Minggu-10: Kolaborasi dengan GIT](minggu-10/README.md)
 11. [Praktikum Minggu-11: IaaS](minggu-11/README.md)
 12. [Praktikum Minggu-12: Docker compose](minggu-12/README.md)
+13. [Praktikum Minggu-13: Docker swarm mode](minggu-13/README.md)
