@@ -1,6 +1,6 @@
 # Docker - Orkestrasi menggunakan `swarm mode`
 
-ocker memperkenalkan swarm mode pada versi 1.12. Mode ini memungkinkan pengguna untuk me-deploy container pada multiple hosts atau node, menggunakan overlay network. Swarm mode merupakan bagian dari command line interface Docker yang memudahkan pengguna untuk memanage komponen container apabila sudah familiar dengan command â€“ command yang ada di Docker.
+Docker memperkenalkan swarm mode pada versi 1.12. Mode ini memungkinkan pengguna untuk me-deploy container pada multiple hosts atau node, menggunakan overlay network. Swarm mode merupakan bagian dari command line interface Docker yang memudahkan pengguna untuk memanage komponen container apabila sudah familiar dengan command-command yang ada di Docker.
 
 ![docker swarm](img/docker-swarm-mode/001.jpg)
 
